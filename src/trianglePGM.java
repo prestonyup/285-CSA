@@ -32,6 +32,7 @@ public class trianglePGM {
 
         if (!isTriangle) {
             System.out.println("The shape is not a triangle.");
+            input.close();
             return;
         }
 
@@ -54,5 +55,6 @@ public class trianglePGM {
                 System.out.println("The shape is a right triangle with sides: " + side1 + ", " + side2 + " and hypotenuse: " + side3);
             }
         }
+        input.close();
     }
 }
