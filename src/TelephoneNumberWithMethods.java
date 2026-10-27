@@ -11,7 +11,7 @@ public class TelephoneNumberWithMethods {
         if (isValid) {
             Boolean isChecked = checkFormat(cleanedNum);
             if (isChecked) {
-                // go here
+                printNumber(cleanedNum);
             }
             else {
                 System.out.println("The number you entered is invalid.");
@@ -55,5 +55,15 @@ public class TelephoneNumberWithMethods {
         else {
             return false;
         }
+    }
+
+    public static void printNumber(String num) {
+        String segment1 = num.substring(0, 5);
+        String segment2 = num.substring(5, 8);
+        String segment3 = num.substring(9, 13);
+
+        System.out.println("This number's area code is" + segment1);
+        System.out.println("This number's exchange number is " + segment2);
+        System.out.println("This number's line number is " + segment3);
     }
 }
