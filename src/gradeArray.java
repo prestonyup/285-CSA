@@ -48,7 +48,7 @@ public class gradeArray {
 
             else if (selection == 4) {
                 printAverage(list2);
-                System.out.println("Exiting program. Goodbye!");
+                System.out.println("finish");
                 break;
             }
             
