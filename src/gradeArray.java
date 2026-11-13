@@ -23,6 +23,7 @@ public class gradeArray {
         Scanner input = new Scanner(System.in);
 
         int[] list1 = {80, 90, 75, 100};
+        System.out.println(list1);
         ArrayList<Integer> list2 = new ArrayList<>();
 
         while (true) {
