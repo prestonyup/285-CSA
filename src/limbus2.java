@@ -41,8 +41,18 @@ public class limbus2 {
 
 
     // ALLY B
+        ArrayList<Integer> allyStatsB = new ArrayList<>(List.of(235, 0, 3, 6)); // 235HP, 0SP, 3-SPEED, 6+SPEED
+        ArrayList<Integer> skillOneB = new ArrayList<>(List.of(3, 6, 3, 1)); // 3COUNT, 6BP, 3CP, 1C -- 9MAX
+        ArrayList<Integer> skillTwoB = new ArrayList<>(List.of(2, 8, 2, 2)); // 2COUNT, 8BP, 2CP, 2C -- 12MAX
+        ArrayList<Integer> skillThreeB = new ArrayList<>(List.of(1, 4, 2, 6)); // 1COUNT, 4BP, 2CP, 6C -- 16MAX
+        ArrayList<Integer> DefenseSkillB = new ArrayList<>(List.of(10, 4, 1)); // 10BP, 3CP, 1C -- 14MAX
 
 
+    // ENEMY
+        ArrayList<Integer> enemyStats = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
+        ArrayList<Integer> skillOneE = new ArrayList<>(List.of()); // 600HP, -8SP, 7-SPEED, 10+SPEED
+        ArrayList<Integer> skillTwoE = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
+        ArrayList<Integer> skillThreeE = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
 
     }
 }
