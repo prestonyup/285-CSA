@@ -49,10 +49,11 @@ public class limbus2 {
 
 
     // ENEMY
-        ArrayList<Integer> enemyStats = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
-        ArrayList<Integer> skillOneE = new ArrayList<>(List.of()); // 600HP, -8SP, 7-SPEED, 10+SPEED
-        ArrayList<Integer> skillTwoE = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
-        ArrayList<Integer> skillThreeE = new ArrayList<>(List.of(600, -8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
+    // Instead of SKILL-COUNT, there is ATTACK-WEIGHT: The chance for an attack to be used
+        ArrayList<Integer> enemyStats = new ArrayList<>(List.of(600, 8, 7, 10)); // 600HP, -8SP, 7-SPEED, 10+SPEED
+        ArrayList<Integer> skillOneE = new ArrayList<>(List.of(60, 6, 2, 2)); // 60WEIGHT, 6BP, 2CP, 2C -- 10MAX
+        ArrayList<Integer> skillTwoE = new ArrayList<>(List.of(30,)); // 60WEIGHT, 
+        ArrayList<Integer> skillThreeE = new ArrayList<>(List.of(10,)); // 
 
     }
 }
